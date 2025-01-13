@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Link</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #2d033b, #4a148c);
+            color: #fff;
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 35px;            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+            max-width: 380px;
+            width: 100%;
+        }
+
+        .logo {
+            width: 80px;
+            margin: 0 auto 15px;
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            border: 4px solid #f9a825;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 22px;
+            margin: 10px 0;
+            color: #f9a825;
+        }
+
+        p {
+            font-size: 15px;
+            color: #ddd;
+            margin-bottom: 25px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 15px;
+            color: #fff;
+            background: #f9a825;
+            padding: 12px 25px;
+            border-radius: 30px;
+            box-shadow: 0 5px 15px rgba(249, 168, 37, 0.4);
+            transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+        }
+
+        .button img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .button:hover {
+            background: #ffc107;
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 8px 20px rgba(255, 193, 7, 0.5);
+        }
+
+        .button:active {
+            transform: translateY(1px) scale(0.98);
+            box-shadow: 0 4px 10px rgba(249, 168, 37, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="C:\Users\User\Desktop\Picsart_24-12-22_22-58-49-010.jpg" alt="Avatar" class="avatar">
+        <h1>Sirojbek</h1>
+        <p></p>
+        <div class="buttons">
+            <a href="https://instagram.com/shavkatjan0vich" class="button">
+                <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" alt="Instagram">Instagram
+            </a>
+            <a href="https://youtube.com/@turabbaev" class="button">
+                <img src="https://img.icons8.com/ios-filled/50/000000/youtube-play.png" alt="YouTube">YouTube
+            </a>
+            <a href="https://facebook.com/yourusername" class="button">
+                <img src="https://img.icons8.com/ios-filled/50/000000/facebook.png" alt="Facebook">Facebook
+            </a>
+            <a href="https://t.me/sero_xc" class="button">
+                <img src="https://img.icons8.com/ios-filled/50/000000/telegram-app.png" alt="Telegram">Telegram
+            </a>
+            <a href="#" class="button">
+                <img src="https://img.icons8.com/?size=100&id=99262&format=png&color=000000" alt="VK">VK 
+            </a>
+            </a>
+            <a href="https://wa.me/+996755434340" class="button">
+                <img src="https://img.icons8.com/ios-filled/50/000000/whatsapp.png" alt="WhatsApp">WhatsApp
+
+            </a> 
+        </div>
+    </div>
+</body>
+</html>
